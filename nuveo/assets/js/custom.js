@@ -1,7 +1,7 @@
 function checkVote(key){
     const gob= localStorage.getItem(key);
     if (gob!=null){
-        showSnackbar("You have already voted for" + gob + ". No second chances");
+        showSnackbar("You have already voted for " + gob + ". No second chances");
         return true;
     }
 }
