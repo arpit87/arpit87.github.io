@@ -135,8 +135,8 @@
 	
 	/* @group Header */
 	
-	#header hgroup h1.logo a{ font-size: 30px; }
-	#header hgroup h2.subtitle{ font-size: 12px; }
+	#header div h1.logo a{ font-size: 30px; }
+	#header div h2.subtitle{ font-size: 12px; }
 	
 	/* @end */
 	
@@ -144,7 +144,7 @@
 	
 	div.home div.timeline article{ width: auto; float: none; margin: 40px 0 0 !important; padding: 10px !important; }
 	div.home div.timeline article span.arrow{ display: none; }
-	div.home div.timeline article header time{ width: 50px; height: 40px; font-size: 11px; padding-top: 10px; }
+	div.home div.timeline article header time{ width: 50px; height: 48px; font-size: 11px; padding-top: 3px; }
 	div.home div.timeline article header time span{ font-size: 25px; }
 	
 	/* @end */
