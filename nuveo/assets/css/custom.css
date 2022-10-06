@@ -65,11 +65,11 @@ section {
   .dFlex{
 	  display: flex;
 	  flex-direction: row;
-	  margin-bottom: 100px;
+	  margin-bottom: 65px;
   }
   .dLabel{
 	  margin-bottom: 0;
-	  padding: 1rem;
+	  padding: .75rem;
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
