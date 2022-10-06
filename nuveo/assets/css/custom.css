@@ -2,7 +2,7 @@ body {
 	color: hsla(215, 5%, 50%, 1);
   }
 body.background{
-	background: url(https://www.quiz-maker.com/images/blossom-01.svg) 100% 100%/cover no-repeat;
+	background: url(https://www.quiz-maker.com/images/blossom-01.svg) 100% 100%/cover;
 }  
 section {
 	display: flex;
