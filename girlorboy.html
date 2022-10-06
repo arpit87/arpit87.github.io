@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./nuveo/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./nuveo/assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <title>Vote</title>
+</head>
+<body class="background">
+    <img width="100%" src="nuveo/assets/images/boyvsgirl.jpg">
+    <div class="container">
+    </div>
+    <section class="dFlex">
+        <div>
+          <input type="radio" id="control_1" name="girlorboy" value="boy">
+          <label class="dLabel" for="control_1">
+            <p>BOY</p>
+          </label>
+        </div>
+        <div>
+            <input type="radio" id="control_2" name="girlorboy" value="girl">
+            <label class="dLabel" for="control_2">
+              <p>GIRL</p>
+            </label>
+          </div>
+    </section>
+    <nav onclick="onclickradio('girlorboy')" class="pagination" role="navigation">
+        <div class="nav">
+            <span  class="page-number"><b>Vote</b></span>
+        </div>
+    </nav>
+    <div class="nav textcenter" style="margin-top: 30px; text-decoration: underline">
+        <a href="quizLanding.html" ><b>back</b></a>
+    </div>
+    <div id="snackbar"></div>
+</body>
+<script type="text/javascript" src="./nuveo/assets/js/custom.js"></script>
+</html>
