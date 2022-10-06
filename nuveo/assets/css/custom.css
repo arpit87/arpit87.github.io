@@ -17,7 +17,7 @@ section {
   }
 
   label {
-	height: 100%;
+	height: 70%;
 	display: block;
 	background: white;
 	border: 2px solid #F15F74;
@@ -53,6 +53,7 @@ section {
 	background: white;
   }
   p {
+	  font-size: 1.5em;
 	font-weight: 900;
   }
   
@@ -87,7 +88,7 @@ section {
   .fWrap{
 	display: flex;
     width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
   }
   .fWrap > div {
 	flex: 1;
