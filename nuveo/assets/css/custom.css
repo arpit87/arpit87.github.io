@@ -1,0 +1,98 @@
+body {
+	color: hsla(215, 5%, 50%, 1);
+  }
+body.background{
+	background: url(https://www.quiz-maker.com/images/blossom-01.svg) 100% 100%/cover no-repeat;
+}  
+section {
+	display: flex;
+	flex-flow: column;
+  }
+  .dFlex > div {
+	flex: 1;
+	padding: 0.5rem;
+  }
+  input[type="radio"] {
+	display: none;
+  }
+
+  label {
+	height: 100%;
+	display: block;
+	background: white;
+	border: 2px solid #F15F74;
+	border-radius: 20px;
+	padding: 1rem;
+	margin-bottom: 0;
+	text-align: center;
+	box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input[type="radio"]:checked + label {
+	background: #F15F74;
+	color: hsla(215, 0%, 100%, 1);
+  }
+  input[type="radio"]:checked + label ::after{
+	color: hsla(215, 5%, 25%, 1);
+	font-family: FontAwesome;
+	border: 2px solid #F15F74;
+	content: "\f00c";
+	font-size: 24px;
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	background: white;
+  }
+  p {
+	font-weight: 900;
+  }
+  
+  
+  @media only screen and (max-width: 700px) {
+	section {
+	  flex-direction: column;
+	}
+  }
+  .dFlex{
+	  display: flex;
+	  flex-direction: row;
+	  margin-bottom: 100px;
+  }
+  .dLabel{
+	  margin-bottom: 0;
+	  padding: 1rem;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+  }
+  .tCont{
+	box-shadow: rgb(57 73 76 / 35%) 0 1px 6px 0;
+    background: rgb(255 255 255/94%);
+	padding: 2em;
+  }
+  .tCont p{
+	  color: #000;
+	  font-size: 18px;
+  }
+  .fWrap{
+	display: flex;
+    width: 100%;
+	margin-bottom: 50px;
+  }
+  .fWrap > div {
+	flex: 1;
+	padding: 0.5rem;
+  }
+  .pb-50{
+	  padding-bottom: 50px;
+	  display: flex;
+  }
