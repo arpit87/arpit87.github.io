@@ -8,7 +8,7 @@ function checkVote(key){
 
 function onclickradio(key){
     console.log("gender selected");
-    const optionSel=document.querySelector("input[name=key]:checked");
+    const optionSel=document.querySelector("input[name="+key+"]:checked");
     if(optionSel == null)
     {
         showSnackbar("Please select an option...");
