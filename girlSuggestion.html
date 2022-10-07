@@ -35,7 +35,7 @@
             <div>
                 <input type="radio" id="control_10" name="girlsname" value="4">
                 <label for="control_10">
-                <p>Trisha</p>
+                <p>Garvita</p>
                 </label>
             </div>
         </div>
@@ -47,9 +47,9 @@
           </label>
         </div>
         <div>
-            <input type="radio" id="control_12" name="girlsname" value="5">
+            <input type="radio" id="control_12" name="girlsname" value="6">
             <label for="control_12">
-              <p>Aarima</p>
+              <p>Arima</p>
             </label>
           </div>
         </div>
@@ -57,7 +57,8 @@
 
         <nav onclick="onclickradio('girlsname')" class="pagination" role="navigation">
             <div class="nav">
-                <a class="page-number"><b>Vote</b></a>
+                <span id="vote" class="page-number" style="display: block" ><b>Vote</b></span>
+                <div id="loader" class="loader" style="display: none"></div>
             </div>
         </nav>
     <div class="nav textcenter" style="margin-top: 30px; text-decoration: underline">
@@ -66,5 +67,7 @@
     <div id="snackbar"></div>
     </section>
 </body>
+
 <script type="text/javascript" src="./nuveo/assets/js/custom.js"></script>
+
 </html>

@@ -14,13 +14,13 @@
 
     <section class="dFlex">
         <div>
-          <input type="radio" id="control_1" name="girlorboy" value="boy">
+          <input type="radio" id="control_1" name="girlorboy" value="2">
           <label class="dLabel" for="control_1">
             <p>BOY</p>
           </label>
         </div>
         <div>
-            <input type="radio" id="control_2" name="girlorboy" value="girl">
+            <input type="radio" id="control_2" name="girlorboy" value="1">
             <label class="dLabel" for="control_2">
               <p>GIRL</p>
             </label>
@@ -28,7 +28,8 @@
     </section>
     <nav onclick="onclickradio('girlorboy')" class="pagination" role="navigation">
         <div class="nav">
-            <span  class="page-number"><b>Vote</b></span>
+            <span id="vote" class="page-number" style="display: block" ><b>Vote</b></span>
+            <div id="loader" class="loader" style="display: none"></div>
         </div>
     </nav>
     <div class="nav textcenter" style="margin-top: 30px; text-decoration: underline">
