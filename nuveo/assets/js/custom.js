@@ -62,19 +62,22 @@ function onclickradio(key){
 function  callapi(key, selection){
     var launchcode;
     const initAns = parseInt(selection);
-    const id = 11540755;
+    var id = 11540755;
     var url = "https://survey.freeonlinesurveys.com/formApi/saveFormdata";
     const http = new EasyHTTP;
     var returnVal = false
     switch (key){
         case "girlorboy":
             launchcode = "pNxCNFeM";
+            id = 11540755;
             break;
         case "girlsname":
             launchcode = "ESiczFGn";
+            id = 11540782;
             break;
         case "boysname":
             launchcode = "b2IhYEpm";
+            id = 11540763;
             break;
     }
     const jsonVal =
@@ -99,10 +102,10 @@ function  callapi(key, selection){
         "sessionInformation": {
         "completed": true,
             "timeTaken": 0,
-            "startTime": "",
+            "startTime": "06/10/2022 08:36:22",
             "domain": "",
             "countryCode": "IN",
-            "trackedResponse": true,
+            "trackedResponse": false,
             "anon": true,
             "responseStatus": 5
     }
