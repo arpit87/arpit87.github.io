@@ -71,10 +71,10 @@ function  callapi(key, selection){
             launchcode = "pNxCNFeM";
             break;
         case "girlsname":
-            launchcode = "b2IhYEpm";
+            launchcode = "ESiczFGn";
             break;
         case "boysname":
-            launchcode = "ESiczFGn";
+            launchcode = "b2IhYEpm";
             break;
     }
     const jsonVal =
@@ -99,10 +99,10 @@ function  callapi(key, selection){
         "sessionInformation": {
         "completed": true,
             "timeTaken": 0,
-            "startTime": "06/10/2022 08:36:22",
+            "startTime": "",
             "domain": "",
             "countryCode": "IN",
-            "trackedResponse": false,
+            "trackedResponse": true,
             "anon": true,
             "responseStatus": 5
     }
